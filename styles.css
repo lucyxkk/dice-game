@@ -1,13 +1,8 @@
+/* main */
 .container {
   width: 70%;
   margin: auto;
   text-align: center;
-}
-
-.dice {
-  text-align: center;
-  display: inline-block;
-
 }
 
 body {
@@ -28,14 +23,47 @@ p {
   font-family: 'Indie Flower', cursive;
 }
 
+/* button */
+
+.button{
+  width: 200px;
+  height: 50px;
+  background-color: #4ECCA3;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  font-size: 20px;
+  font-family: 'Lobster', cursive;;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.button:hover{
+  opacity: 70%;
+}
+.button:active{
+  transform: translateY(2px);
+}
+
+/* dice */
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
 img {
   width: 80%;
 }
+
+/* footer */
 
 footer {
   margin-top: 5%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
+  font-size: 20px;
 
 }
